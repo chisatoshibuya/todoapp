@@ -13,6 +13,7 @@
 		50B18A08229E596D00D60899 /* ToDoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50B18A06229E596D00D60899 /* ToDoApp.xcdatamodeld */; };
 		50B18A0A229E596E00D60899 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50B18A09229E596E00D60899 /* Assets.xcassets */; };
 		50B18A0D229E596E00D60899 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50B18A0B229E596E00D60899 /* LaunchScreen.storyboard */; };
+		50B18A15229E5B8600D60899 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B18A14229E5B8600D60899 /* AddTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		50B18A09229E596E00D60899 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50B18A0C229E596E00D60899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50B18A0E229E596E00D60899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50B18A14229E5B8600D60899 /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				50B18A0B229E596E00D60899 /* LaunchScreen.storyboard */,
 				50B18A0E229E596E00D60899 /* Info.plist */,
 				50B18A06229E596D00D60899 /* ToDoApp.xcdatamodeld */,
+				50B18A14229E5B8600D60899 /* AddTaskViewController.swift */,
 			);
 			path = ToDoApp;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50B18A02229E596D00D60899 /* ViewController.swift in Sources */,
+				50B18A15229E5B8600D60899 /* AddTaskViewController.swift in Sources */,
 				50B18A08229E596D00D60899 /* ToDoApp.xcdatamodeld in Sources */,
 				50B18A00229E596D00D60899 /* AppDelegate.swift in Sources */,
 			);
